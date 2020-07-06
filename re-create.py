@@ -1,7 +1,10 @@
 import threading as thread
 import random as ra
+import os
+import getpass
 import time
 overload = True
+os.chdir(f"C:\\Users\\{getpass.getuser()}\\Desktop") 
 amt_per_thread = 99999999999999999999999999999999999999
 def spawn():
 	print('New thread created....')
